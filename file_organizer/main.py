@@ -1,9 +1,10 @@
+import os
 import sys
 from gui import launch_gui
 from sorter import organize_files
 from logger import log_error
 
-import os
+
 def main():
     if len(sys.argv) > 1:
         directory = sys.argv[1]
@@ -22,4 +23,3 @@ def main():
 if __name__ == "__main__":
     main()
 
-    
